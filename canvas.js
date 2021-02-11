@@ -33,7 +33,7 @@ async function buildCanvas(result, matchInfo){
 
     //we iterate over the entire result object and use each field once per line on the scoreboard output
     for(let key in result){
-        let heroPath = await Canvas.loadImage(`./images/heroes/jpg/${result[key].hero}.jpg`); //get the hero icon
+        let heroPath = await Canvas.loadImage(`./images/heroes/${result[key].hero}.jpg`); //get the hero icon
         ctx.drawImage(heroPath, 80, y, 55, 33); //draw the icon
         ctx.font = applyText(canvas, result[key].name);
         ctx.fillText(`${result[key].name}`, 220, y+20)
