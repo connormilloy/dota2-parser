@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "discord": "^0.8.2",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "steam-id-convertor": "^1.0.1",
+    "steamid": "^1.1.3",
+    "steamid-parser": "^1.0.1"
+  }
+}
